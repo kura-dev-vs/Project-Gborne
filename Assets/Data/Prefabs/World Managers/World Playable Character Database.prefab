@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8094096621238810991
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6287104772645266549}
+  - component: {fileID: 4549923837450808981}
+  m_Layer: 0
+  m_Name: World Playable Character Database
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6287104772645266549
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8094096621238810991}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4549923837450808981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8094096621238810991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f9feb9d6bc72f14fad23ff4a80ce8cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NoCharacter: {fileID: 11400000, guid: 58fe952116c322645a0214d75d74090c, type: 2}
+  playableCharacters:
+  - {fileID: 11400000, guid: 58fe952116c322645a0214d75d74090c, type: 2}
+  - {fileID: 11400000, guid: b82258489de1ab0448d0a1ef1be5607f, type: 2}
+  - {fileID: 11400000, guid: 849546a5a1aab7740a52aae46d5dddb9, type: 2}
+  - {fileID: 11400000, guid: b12b416bab4618041bf829056efb8c5c, type: 2}
+  - {fileID: 11400000, guid: 1720d2be32112ad4b964ba82becae249, type: 2}
+  - {fileID: 11400000, guid: d43f2866129906747a83047d3fe2fd84, type: 2}
+  - {fileID: 11400000, guid: add8f76887b71ef40b6498e98af0e553, type: 2}
+  - {fileID: 11400000, guid: 8ffea38b6eefeb644927701413df863b, type: 2}
+  - {fileID: 11400000, guid: 4e26dc7eb62a6834db8bdd716876f818, type: 2}
+  - {fileID: 11400000, guid: f320f41107f599146bb97fb687c3468c, type: 2}
+  - {fileID: 11400000, guid: 290fb8ce8f7856848a4129ef8760a512, type: 2}
+  - {fileID: 11400000, guid: 400396ca0f18e6140a7c4e2d52c06127, type: 2}
+  spawnEffect: {fileID: 248031816601525474, guid: c20f392087738cb4483d7397393bc698,
+    type: 3}
+  uiSpawnEffect: {fileID: 248031816601525474, guid: 97178abeb33383e4e88b858eab6e554f,
+    type: 3}
+  uiSpawnSparkle: {fileID: 113868, guid: f767f190ac886f14b984060245bd1db0, type: 3}

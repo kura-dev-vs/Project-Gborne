@@ -1,0 +1,5 @@
+Materials -> 生成されたMaterials
+PMX -> FBX
+texture -> texture群
+
+PMXとtextureのフォルダと同じ階層にMAterialsを置かないとMMD4でエラー起きる

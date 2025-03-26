@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &355244612515683800
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 650717070751650174}
+  - component: {fileID: 2260164525105256711}
+  m_Layer: 0
+  m_Name: World Character Effects Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &650717070751650174
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 355244612515683800}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2260164525105256711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 355244612515683800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29b37ddf4d0c07249b499fb03f446441, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bloodSplatterVFX: {fileID: 2944396702758532163, guid: 7a49fe4cc0278bf4cbf45fc7ea63cdc8,
+    type: 3}
+  criticalBloodSplatterVFX: {fileID: 0}
+  healVFX: {fileID: 9017484664307500583, guid: d88db58cd3bce844d9714749d910847f, type: 3}
+  takeDamageEffect: {fileID: 11400000, guid: 294dfdc11f9a2304582e92612b6d44c8, type: 2}
+  takeBlockDamageEffect: {fileID: 11400000, guid: dc95fb43c5dfca64591165b7b68d7a1b,
+    type: 2}
+  takeCriticalDamageEffect: {fileID: 11400000, guid: c278e73237c03e747aea4de816c3ef36,
+    type: 2}
+  powerUpsEffect: {fileID: 11400000, guid: 5f617512a947e9b419566a0b034c1525, type: 2}
+  absorptionEffect: {fileID: 11400000, guid: 0a1afb3de64667b46acc4b22c107c9c0, type: 2}
+  instantEffects:
+  - {fileID: 11400000, guid: 9563b8f3509fe4545b0873950082730d, type: 2}
+  - {fileID: 11400000, guid: 294dfdc11f9a2304582e92612b6d44c8, type: 2}
+  - {fileID: 11400000, guid: 9289221c8fe772d419ccb4774816d276, type: 2}
+  - {fileID: 11400000, guid: 69d8cb71c6488144db5865d48809af2f, type: 2}
+  - {fileID: 11400000, guid: dc95fb43c5dfca64591165b7b68d7a1b, type: 2}
+  - {fileID: 11400000, guid: c278e73237c03e747aea4de816c3ef36, type: 2}
+  staticEffects:
+  - {fileID: 11400000, guid: 5f617512a947e9b419566a0b034c1525, type: 2}
+  - {fileID: 11400000, guid: 0a1afb3de64667b46acc4b22c107c9c0, type: 2}
+  - {fileID: 11400000, guid: 96eed9d39e293874f81551e65da5bec9, type: 2}
+  - {fileID: 11400000, guid: 66ea252af34ed2f46aea01d46f579785, type: 2}
+  takeHealEffect: {fileID: 11400000, guid: 9289221c8fe772d419ccb4774816d276, type: 2}
+  takeEnergyEffect: {fileID: 11400000, guid: 69d8cb71c6488144db5865d48809af2f, type: 2}

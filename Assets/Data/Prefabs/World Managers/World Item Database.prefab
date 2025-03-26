@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &529962811006083658
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5539722256891412247}
+  - component: {fileID: 7867646703158914080}
+  m_Layer: 0
+  m_Name: World Item Database
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5539722256891412247
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529962811006083658}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7867646703158914080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529962811006083658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 370b01f9f7f53904fb9d43c5036e4343, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unarmedWeapon: {fileID: 11400000, guid: fc22800a3e850584bbcc3fff97d73dbe, type: 2}
+  pickUpItemPrefab: {fileID: 5004754848415263186, guid: 246fcee6ac20e834cb5ef48cb4636720,
+    type: 3}
+  transparent: {fileID: 21300000, guid: 42844c059b8bfa7419da4e1f0bc06ac3, type: 3}
+  weapons:
+  - {fileID: 11400000, guid: fc22800a3e850584bbcc3fff97d73dbe, type: 2}
+  - {fileID: 11400000, guid: 638f28e29a0d5f040836c692e42f1383, type: 2}
+  - {fileID: 11400000, guid: d7a546171d1b71e4ab67a75e6474dc3e, type: 2}
+  - {fileID: 11400000, guid: d426195d018724e46821f2c7812922df, type: 2}
+  - {fileID: 11400000, guid: 7b234772732696546ae02b857522fd7c, type: 2}
+  noHat: {fileID: 11400000, guid: 36be2041dc9e10245a02bebd4e215e98, type: 2}
+  noJacket: {fileID: 11400000, guid: 789d5ef91e4938c498890c99d2f8c5ac, type: 2}
+  noTops: {fileID: 11400000, guid: dc20eb7b429a7ab40a2c4374e8b31d0d, type: 2}
+  noBottoms: {fileID: 11400000, guid: 7bcf848fb8740554daaed2df088913bd, type: 2}
+  noShoes: {fileID: 11400000, guid: b6483cc60d55dd54e9d4be1402e8cc88, type: 2}
+  hatOutfits:
+  - {fileID: 11400000, guid: d276f4333c46c0648a611ce9a75729b5, type: 2}
+  jacketOutfits:
+  - {fileID: 11400000, guid: 442bed9fa08b0b146a7e9dd767a91bc1, type: 2}
+  topsOutfits:
+  - {fileID: 11400000, guid: 8bfbe85b8cbf73c458ccdc2eebb37ce5, type: 2}
+  bottomsOutfits:
+  - {fileID: 11400000, guid: abbf50fc6f1b96941b02a0d9e82e5c79, type: 2}
+  shoesOutfits:
+  - {fileID: 11400000, guid: ddd739225adf3ea45b0f9371350ff3f5, type: 2}

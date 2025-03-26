@@ -1,0 +1,229 @@
+fileFormatVersion: 2
+guid: 46bc0c1cad02ac14991f1f8d1817ec00
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 0.WTS_Skin_mtl
+    second: {fileID: 2100000, guid: 413346740a221cf49ba36e9ee60ae206, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1.WTS_Tights_mtl
+    second: {fileID: 2100000, guid: db8ee20bc4d415d4a8da2624d7f4d44e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 10.WTS_Eye_mtl
+    second: {fileID: 2100000, guid: 75569f5c958016242b6d5b91babeb6ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 11.WTS_Shoes_mtl
+    second: {fileID: 2100000, guid: a56c77f4ce831fb419fcf19b8d1f87aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 12.WTS_Stethoscope_mtl
+    second: {fileID: 2100000, guid: bd3944a09120cd04c840f3645b1aa9a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 13.WTS_Face_olON_mtl
+    second: {fileID: 2100000, guid: bb912766d6110264185faf9a61af8491, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 14.WTS_Face2_olOFF_mtl
+    second: {fileID: 2100000, guid: 6a6faf33cd442ed428786cfe96e553c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 15.WTS_Faec_eyelash_mtl
+    second: {fileID: 2100000, guid: 9dd76fd0590d2a04db9da387a947cc01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 16.WTS_Face_eyebrows_mtl
+    second: {fileID: 2100000, guid: 595ce17c335f11d4d91d05e39a0b3b5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 17.WTS_Face_alpha_mtl
+    second: {fileID: 2100000, guid: cd77d892ebef1b949aa078adc7b7c8cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 18.WTS_Hair_shadow
+    second: {fileID: 2100000, guid: eebbaa516f6463844b2d45d1166504fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 19.WTS_Cape_Metal_mtl
+    second: {fileID: 2100000, guid: 85df1482962fa6944ae2a96bcea4bb45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 2.WTS_Cape_mtl
+    second: {fileID: 2100000, guid: ef957fb089befaa45b24415e7406fbda, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 20.WTS_Hyojou_mtl
+    second: {fileID: 2100000, guid: cbca16382ee92704b82e03c776e5a7df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 21.WTS_Hyojou2_mtl
+    second: {fileID: 2100000, guid: ae5e81ee6c90b6043bba80c1a5d55ebc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 22.WTS_Syringe_mtl
+    second: {fileID: 2100000, guid: eb5106833d12bfa4ea3dfea5a396fe0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 23.WTS_Syringe_C_mtl
+    second: {fileID: 2100000, guid: f140526d748626f4f9703eb737f5a721, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3.WTS_Cape_re_mtl
+    second: {fileID: 2100000, guid: c0b3c7431d7d41a499529b27f15f9795, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4.WTS_Clothes_mtl
+    second: {fileID: 2100000, guid: 2656c51c205b8354e85f51bf63b553f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5.shinkizaishitsu1
+    second: {fileID: 2100000, guid: 9c822e724cc1a774891f2d0a32598c27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 6.WTS_Clothes_re_mtl
+    second: {fileID: 2100000, guid: 6b0a8befb93facf409d30f445d5f2023, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 7.WTS_Hair_mtl
+    second: {fileID: 2100000, guid: 6ad6643578ad51943afad82ecd46afef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 8.WTS_Hair_re_mtl
+    second: {fileID: 2100000, guid: 62bb4321dd8e56e4aa3a174e9df95bf8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 9.WTS_Hat_mtl
+    second: {fileID: 2100000, guid: a8bf5249cb4eb0047a02dddae018422d, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 0
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

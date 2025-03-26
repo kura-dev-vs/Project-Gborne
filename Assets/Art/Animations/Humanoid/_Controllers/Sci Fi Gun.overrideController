@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sci Fi Gun
+  m_Controller: {fileID: 9100000, guid: 35eff64dd1cc83e48a0a8594929aa443, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 5424090796239015129, guid: d53598be1f1613242b6196b7209a59d9,
+      type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 84bd246f5a390a44496d1d19defc2309, type: 3}
+  - m_OriginalClip: {fileID: 5170614412719899250, guid: b1da9203e1b7e98428a8e2b0e8472f62,
+      type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 737df3bc16eb86b499a5cac14a2ba42f, type: 3}
+  - m_OriginalClip: {fileID: 5730736735217396164, guid: c2510c8570e162445a1e7bc8e830a08f,
+      type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 75469f61fe83adf498db4d5330b7eefd, type: 3}
+  - m_OriginalClip: {fileID: 2641256469826905053, guid: 534b71d5eb08d3747b870e37456a0fc8,
+      type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: a62f7519c03e7fe498a766fc3ee26496, type: 3}

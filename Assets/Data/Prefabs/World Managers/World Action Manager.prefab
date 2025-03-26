@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3587879655678395311
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6801566010120206736}
+  - component: {fileID: 1808051587800520544}
+  m_Layer: 0
+  m_Name: World Action Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6801566010120206736
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3587879655678395311}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1808051587800520544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3587879655678395311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65403d727f4e8304fa5f5c1a658713bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponItemActions:
+  - {fileID: 11400000, guid: 5645efe87d674ea4d834207782c985fd, type: 2}
+  - {fileID: 11400000, guid: 69c57d71f2f3e7c48b31798502821a40, type: 2}
+  - {fileID: 11400000, guid: 5430cb6d2b455a646b12360ae5fddf41, type: 2}
+  - {fileID: 11400000, guid: 39020a21bcae50d469101abaed106d63, type: 2}
+  - {fileID: 11400000, guid: ee54b6ee288180e4e900d95dab67b326, type: 2}
+  - {fileID: 11400000, guid: 850c3f40f23ffbf47ba5d2e8c4b87084, type: 2}
+  - {fileID: 11400000, guid: e278bb79e82ae024494b114b9087ec91, type: 2}
+  pcSkillActions:
+  - {fileID: 11400000, guid: 46988e68d5ccc564a90aee125a4f4333, type: 2}
+  - {fileID: 11400000, guid: 785029d5728ed824a921fba0a903e0af, type: 2}
+  - {fileID: 11400000, guid: 5299dcc62714aab458ffe24a37c6fa42, type: 2}
+  - {fileID: 11400000, guid: 028ac0502c35c534f8b1020b30571181, type: 2}
+  - {fileID: 11400000, guid: df1910cf1c11025429fd0c8a5e7b7158, type: 2}
+  pcBurstActions:
+  - {fileID: 11400000, guid: 45468b414ac9b8541962a5e8cde26cbe, type: 2}
