@@ -31774,7 +31774,7 @@ PrefabInstance:
     - target: {fileID: 5211363003235225497, guid: 6f5bc9f6381c15a4aad02f7b4c585d85,
         type: 3}
       propertyPath: worldSceneIndex
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5211363003235225497, guid: 6f5bc9f6381c15a4aad02f7b4c585d85,
         type: 3}
